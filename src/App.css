@@ -1,0 +1,240 @@
+
+.carditem{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.divcard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  width: 25%;
+  border: 2px solid rgba(0, 98, 255, 0.37);
+}
+
+.perfilcontainer{
+  background-color: #dbdee2ec;
+  width: 60%;
+  min-height: 70vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.perfilpassagens{
+  background-color: #dbdee2ec;
+  width: 60%;
+  max-height: 85vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 5px;
+  overflow-y: scroll;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#btns{
+  width: 40%;
+  margin: auto;
+}
+
+#nome{
+  margin-top: 10px;
+}
+
+.articlerow{
+  display: flex;
+  flex-direction: column;
+}
+
+.pdado{
+  overflow: auto;
+  background-color: rgba(154, 238, 210, 0.322);
+  text-decoration: underline;
+  text-indent: 10px;
+}
+
+.perfilcontainer article p{
+  padding: 7px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.pcampo{
+  background-color: rgba(125, 199, 202, 0.296);
+  font-size: large;
+}
+
+.card-img-top{
+  height: 35vmin;
+}
+
+.card-body{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logotxt{
+  font-size: x-large;
+}
+
+.arttext{
+  background-color: #e7ecf1;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  animation: animcor 1.5s;
+}
+
+.listmenu{
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.listmenu li{
+  list-style: none;
+}
+
+.links{
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: large;
+}
+
+.links:hover{
+  background-color: rgb(0, 247, 255);
+}
+
+.links{
+  display: block;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.fundobranco{
+  background-color: rgb(255, 239, 239);
+  width: 60%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.titperf{
+  margin-top: 0px;
+}
+
+@media (max-width: 935px){
+  .links{
+    font-size: large;
+  }
+}
+
+@media (max-width: 675px){
+  .fundobranco{
+    width: 95%;
+  }
+  .divcard{
+    width: 50%;
+  }
+  .logotxt{
+    font-size: large;
+  }.perfilcontainer{
+    width: 90%;
+    flex-direction: column;
+  }
+  .titperf{
+    margin-top: 20px;
+  }
+}
+
+.App-header2 {
+  background-color: #d0d7e4;
+  background: url(https://5287aa00874a313e299d-1850966fc307ff23e1e789aeafd2476b.ssl.cf5.rackcdn.com/PostImagem/34245/fotos-de-paisagens_o1f9f43uqg1iol1u491f86mpq19gse.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  
+}
+
+.App-header{
+  background-color: #d0d7e4;
+  background: url(https://5287aa00874a313e299d-1850966fc307ff23e1e789aeafd2476b.ssl.cf5.rackcdn.com/PostImagem/34245/fotos-de-paisagens_o1f9f43uqg1iol1u491f86mpq19gse.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  
+}
+
+.rodape{
+  text-align: center;
+  background-color: #d0d7e4;
+}
+
+.rodape span{
+  font-weight: bold;
+}
+
+@keyframes animcor {
+  0% {
+    opacity: 0.2;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes transicao1 {
+  0%{
+    background-color: rgb(236, 250, 249);
+  }
+  50%{
+    background-color: rgb(219, 248, 246);
+  }
+  100%{
+    background-color: rgb(198, 255, 252);
+  }
+}
+
+
+.errpage{
+  min-height: 100vh;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
