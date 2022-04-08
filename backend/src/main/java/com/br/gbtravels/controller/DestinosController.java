@@ -17,7 +17,7 @@ import com.br.gbtravels.models.Destino;
 import com.br.gbtravels.repositories.Destinos;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://grand-blue-travels.vercel.app/")
 @RequestMapping("/destinos")
 public class DestinosController {
 

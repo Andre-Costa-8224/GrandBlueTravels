@@ -18,7 +18,7 @@ import com.br.gbtravels.repositories.Passagens;
 
 @RestController
 @RequestMapping("/passagens")
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="https://grand-blue-travels.vercel.app/")
 public class PassagensController {
 	
 	@Autowired
