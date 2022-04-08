@@ -39,6 +39,7 @@ const Acessar = () => {
         finalcpf = element.cpf;
         finalsenha = element.senha;
         event.preventDefault();
+        window.location.assign("/perfil");
       }
     });
 
