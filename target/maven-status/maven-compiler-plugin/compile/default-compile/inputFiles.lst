@@ -1,0 +1,11 @@
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/repositories/Destinos.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/models/Cliente.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/models/Passagem.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/repositories/Clientes.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/controller/DestinosController.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/controller/HomeController.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/repositories/Passagens.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/controller/ClientesController.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/GrandBlueTravelsApplication.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/models/Destino.java
+/storage/emulated/0/Projetos/Atividade5/backend/src/main/java/com/br/gbtravels/controller/PassagensController.java
